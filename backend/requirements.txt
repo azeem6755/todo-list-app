@@ -17,6 +17,7 @@ MarkupSafe==3.0.3
 priority==2.0.0
 psycopg2-binary==2.9.11
 pydantic==2.12.3
+pydantic-settings==2.11.0
 pydantic_core==2.41.4
 python-dotenv==1.1.1
 pytz==2025.2
