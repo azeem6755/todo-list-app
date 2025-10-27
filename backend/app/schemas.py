@@ -50,6 +50,10 @@ class TaskOut(BaseModel):
     model_config = ConfigDict(from_attributes=True)
 
 
+class TaskMarkComplete(BaseModel):
+    task_id: int
+
+
 class Token(BaseModel):
     access_token: str
     token_type: str
